@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Yeobo's Day💕</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;600;700&family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+       <link rel="icon" href="adwaitlogo.jpg" type="image/jpg">
+</head>
+
+<body>
+    <!-- Audio -->
+    <audio src="audio/BGaudio.mpeg"></audio>
+    
+
+
+    <!-- Floating Background Particles -->
+    <div class="particles" id="particles"></div>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-content">
+            <h1 class="typewriter" id="typewriter">Happy Birthday, PineApple! 🍍</h1>
+            <p class="subtitle fade-in">A Chhotu Little Surprise just for U, only to bring a Chhotu Little Smile on Ur Face! 👩🏻‍❤️‍💋‍👨🏻♥️♾️</p>
+            <div class="floating-hearts">
+                <div class="heart">🐨</div>
+                <div class="heart">🧿</div>
+                <div class="heart">♥️</div>
+                <div class="heart">💋</div>
+                <div class="heart">👩🏻‍❤️‍👨🏻</div>
+            </div>
+            <button class="cta-button" onclick="scrollToSection('gallery'), playMusic()">
+                Start the Celebration 🎊
+            </button>
+            <audio id="bg-music" loop>
+                <source src="audio/BGaudio.mpeg" type="audio/mpeg">
+            </audio>
+            
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Photo Gallery Section -->
+    <section class="gallery-section" id="gallery">
+        <div class="container">
+            <h2 class="section-title">Our Beautiful Memories</h2>
+            <div class="gallery-grid">
+                <div class="photo-card" data-aos="fade-up" data-delay="100">
+                    <div class="photo-container">
+                        <img src="images/1.jpg"
+                            alt="Beautiful moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">One Look from U, & I fall for U all over again💫💖</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="200">
+                    <div class="photo-container">
+                        <img src="images/2.jpg"
+                            alt="Sweet memory">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">The Smile that lights up My World🌍❣️</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="300">
+                    <div class="photo-container">
+                        <img src="images/3.jpg"
+                            alt="Happy times">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Forever Together🫂♾️</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="400">
+                    <div class="photo-container">
+                        <img src="images/4.jpg"
+                            alt="Love moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Equally Cringe🤪👽</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="500">
+                    <div class="photo-container">
+                        <img src="images/5.jpg"
+                            alt="Beautiful day">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">The Drama Duo🎃👻</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="photo-card" data-aos="fade-up" data-delay="600">
+                    <div class="photo-container">
+                        <img src="images/6.jpg"
+                            alt="Romantic moment">
+                        <div class="photo-overlay">
+                            <div class="photo-caption">Yesterday, Today & Always♥️🧿</div>
+                            <button class="like-btn" onclick="toggleLike(this)">
+                                <span class="heart-icon">🤍</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Birthday Message Section -->
+    <section class="message-section" id="message">
+        <div class="container">
+            <div class="message-card">
+                <h2 class="message-title">A Special Message for You</h2>
+                <div class="message-content">
+                    <p class="message-text fade-in-text">
+                        I don’t really have much to say, but from the Bottom Of My Heart♥️, I truly wish that U always stay Happy, & that U achieve everything U want in Lyf — whatever U dream of, may U get it all !!!😌✨
+                        <br>
+                        U r more Precious👦🏻 to Me than a Diamond💎. U r My Family😺. To me… U r just “YOU” — someone I Love Selflessly, Endlessly♾️💗
+                        <br>
+                        Since this bond started Between Us, not even for a moment have I felt that my Lyf could’ve been better Without U😶‍🌫️. I always feel, “What would Lyf be like without U, Yaar ?🤧🤞🏻” I don’t have the words to express how I see U, how I feel For U😶🤌🏻.
+                    </p>
+                    <p class="message-text fade-in-text">
+                        I want to Stand By U Always👫🏻, Be Ur Backbone until my last breath🫂 — maybe not in Ur Happiness, but I want to be Ur Support in Sorrow❣️. I want to be Ur Support System in Every Field of Lyf👩🏻‍❤️‍👨🏻.
+                        In short, I Want To Be Your Home🏠♥️.
+                        <br>
+                        And I want to make every single one of Ur Birthdays Spcl — For Lyf, Every Year😘🫂🧿
+                    </p>
+                    <p class="message-signature fade-in-text">
+                        Heppyyyy Heppyyyy Heppyyyy Birthday to Uuuuuu 🐇💋💞
+                    </p>
+                </div>
+                <div class="message-hearts">
+                    <span class="heart-animation">♥️</span>
+                    <span class="heart-animation">👻</span>
+                    <span class="heart-animation">🧿</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; On270925, ForBabaayy: Made with ❤️ for the Most Precious Person in the World💎🧿</p>
+        </div>
+    </footer>
+
+    <!-- Music Toggle Button -->
+    <div class="music-toggle" id="music-toggle" onclick="toggleMusic()">
+        <span id="music-icon" class="music-icon playing">🔊</span>
+    </div>
+
+    <!-- Decorative Animated Icons -->
+    <div class="animated-icons">
+        <span class="icon bounce">🍍</span>
+        <span class="icon wiggle">🎈</span>
+        <span class="icon swing">💃</span>
+        <span class="icon spin">🦋</span>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
