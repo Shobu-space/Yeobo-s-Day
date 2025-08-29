@@ -1,3 +1,4 @@
+
 // Music control logic
 const bgMusic = document.getElementById("bg-music");
 const musicToggle = document.getElementById("music-toggle");

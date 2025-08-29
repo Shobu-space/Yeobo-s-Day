@@ -583,6 +583,10 @@ body::before {
         width: auto;
     }
 
+    .gallery-section{
+        padding-top: 110px;
+    }
+
     .gallery-grid {
         grid-template-columns: 1fr;
         gap: 20px;
@@ -613,6 +617,10 @@ body::before {
 @media (max-width: 480px) {
     .hero-content {
         padding: 0 15px;
+        margin-right: -60px;
+    }
+    .subtitle{
+        margin-right: 20px;
     }
 
     .cta-button {
@@ -624,3 +632,29 @@ body::before {
         margin-bottom: 40px;
     }
 }
+
+
+
+
+@media (max-width: 376px){
+    .hero-content {
+        padding: 0 15px;
+        margin-right: -60px;
+    }
+    .subtitle{
+        margin-right: 20px;
+    }
+
+    .gallery-section{
+        padding-top: 200px;
+    }
+
+    .cta-button {
+        padding: 12px 24px;
+        font-size: 1rem;
+    }
+
+    .section-title {
+        margin-bottom: 40px;
+    }
+} 
